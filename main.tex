@@ -1,13 +1,15 @@
 \documentclass[a4paper,12pt]{report}
 
-\usepackage[utf8]{inputenc}   % nur nötig, wenn du mit pdfLaTeX kompilierst
-\usepackage[T1]{fontenc}      % dito
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}      
 \usepackage[main=ngerman]{babel}
 
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{float}
+
 
 \title{SWPP-Zusammenfassung}
     \author{Ella Köll, Elmira Parfjonova, Finn Nothdurfter}
@@ -19,14 +21,14 @@
 
     \chapter{Übung 1: GitHub Projekt erstellen}
 
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.75\textwidth]{bilder/erstellt.png}
         \caption{GitHub Reposetory}
         \label{fig:portrait}
     \end{figure}
 
-    Abbildung \ref{fig:portrait} zeigt das erstellte GitHub Reposetory.
+    Abbildung \ref{fig:portrait} zeigt das erstellte GitHub Repository.
 
     Repository erstellt
 
@@ -52,14 +54,24 @@ Ziele (Siehe Terminende oben):
 \end{itemize}
 
 Personen in der Gruppe:
-\begin{itemize}[label=-] 
-\item Projektleiter: Finn Nothdurfter
-\item Stellvertretende Projektleitung: Ella Köll
-\item Teilprojektleitung: Elmira Parfjonova
-\item Projektmitarbeiter: Finn Nothdurfter, Ella Köll, Elmira Parfjonova
-\item Auftraggeber: Professor Landerer + Professor Netzer
-\item Anwender/Kunde: Professor Landerer + Professor Netzer
-\end{itemize}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|}
+        \hline
+        \textbf{Rolle} & \textbf{Person(en)} \\
+        \hline
+        Projektleiter & Finn Nothdurfter \\
+        Stellvertretende Projektleitung & Ella Köll \\
+        Teilprojektleitung & Elmira Parfjonova \\
+        Projektmitarbeiter & Finn Nothdurfter, Ella Köll, Elmira Parfjonova \\
+        Auftraggeber & Professor Landerer, Professor Netzer \\
+        Anwender/Kunde & Professor Landerer, Professor Netzer \\
+        \hline
+    \end{tabular}
+    \caption{Personen in der Gruppe}
+    \label{tab:personen}
+\end{table}
 
 
     \chapter{Übung 3: Teamaufgabe Teil 2 \texttt{=>} Projektstrukturplan, Projektablaufplan}
