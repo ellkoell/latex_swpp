@@ -1,7 +1,13 @@
-\documentclass[ngerman]{report}
-\usepackage{graphicx}
+\documentclass[a4paper,12pt]{report}
 
+\usepackage[utf8]{inputenc}   % nur nötig, wenn du mit pdfLaTeX kompilierst
+\usepackage[T1]{fontenc}      % dito
 \usepackage[main=ngerman]{babel}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{hyperref}
 
 \title{SWPP-Zusammenfassung}
     \author{Ella Köll, Elmira Parfjonova, Finn Nothdurfter}
@@ -13,6 +19,17 @@
 
     \chapter{Übung 1: GitHub Projekt erstellen}
 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{bilder/erstellt.png}
+        \caption{GitHub Reposetory}
+        \label{fig:portrait}
+    \end{figure}
+
+    Abbildung \ref{fig:portrait} zeigt das erstellte GitHub Reposetory.
+
+    Repository erstellt
+
 
 
     \chapter{Übung 2: Teamaufgabe Teil 1 \texttt{=>} Projektdefinition}
@@ -21,40 +38,70 @@
 Das Projekt besteht in der Entwicklung einer App, die basierend auf aktuellen Wetterdaten passende Empfehlungen für tägliche Aktivitäten und Kleidung liefert. Es ist zeitlich begrenzt (bis Ende des Schuljahres) und einmalig, da es eine innovative Lösung darstellt. Der Umfang ist komplex, da die App verschiedene Datenquellen integrieren muss. Das Projekt arbeitet mit begrenzten finanziellen und materiellen Ressourcen. Eine klare Zieldefinition ist gegeben: Die App soll benutzerfreundlich und funktional sein.
 Wir bilden eine Matrix Projektorganisation, da wir uns neben dem Projekt auch um sonstige schulische Pflichten kümmern müssen.
 
+
+\vspace{1cm}
+
+
 Ziele (Siehe Terminende oben):
-*   funktionierende App
-*   pünktliche Abgabe
-*   positive Note
-*   praktisches Interface / hohe Usability
-*   automatische Aktualisierung
+\begin{itemize}[label=-] 
+    \item Funktionierende App
+    \item Pünktliche Abgabe
+    \item Positive Note
+    \item Praktisches Interface / hohe Usability
+    \item Automatische Aktualisierung
+\end{itemize}
 
 Personen in der Gruppe:
-Projektleiter: Finn Nothdurfter
-Stellvertretende Projektleitung: Ella Köll
-Teilprojektleitung: Elmira Parfjonova
-Projektmitarbeiter: Finn Nothdurfter, Ella Köll, Elmira Parfjonova
-Auftraggeber: Professor Landerer + Professor Netzer
-Anwender/Kunde: Professor Landerer + Professor Netzer
+\begin{itemize}[label=-] 
+\item Projektleiter: Finn Nothdurfter
+\item Stellvertretende Projektleitung: Ella Köll
+\item Teilprojektleitung: Elmira Parfjonova
+\item Projektmitarbeiter: Finn Nothdurfter, Ella Köll, Elmira Parfjonova
+\item Auftraggeber: Professor Landerer + Professor Netzer
+\item Anwender/Kunde: Professor Landerer + Professor Netzer
+\end{itemize}
 
 
     \chapter{Übung 3: Teamaufgabe Teil 2 \texttt{=>} Projektstrukturplan, Projektablaufplan}
 
+    Hier ist der Projektstrukturplan zu sehen:
 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{bilder/psp.png}
+        \caption{Projektstrukturplan}
+        \label{fig:psp}
+    \end{figure}
 
     \chapter{Übung 4: Teamaufgabe Teil 3 \texttt{=>} Projektumefeldanalyse, Risikoanalyse}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{bilder/risikoanalyse.png}
+        \caption{Risikoanalyse}
+        \label{fig:risikoanalyse}
+    \end{figure}
+
+    Abbildung \ref{fig:risikoanalyse} zeigt die Risikoanalyse.
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{bilder/umfeldanalyse.png}
+        \caption{Umfeldanalyse}
+        \label{fig:umfeldanalyse}
+    \end{figure}
+
+    Abbildung \ref{fig:umfeldanalyse} zeigt die Umfeldanalyse.
+    
+
+
+
     \chapter{Übung 5: Teamaufgabe Teil 4 \texttt{=>} Kanban Board in GitHub + Userstorys zum Productbacklog hizufügen}
     \chapter{Übung 6: Latex Dokument erstellen}
     
 
-    Abbildung \ref{fig:portrait} zeigt diesen Herrn.
-    Die Details sind in Abbildung \ref{tab:teilnehmer}
-    
-    \begin{figure}[h]
-        \centering
-       
-        \caption{Finn Gaygners}
-        \label{fig:portrait}
-    \end{figure}
+    %Abbildung \ref{fig:portrait} zeigt diesen Herrn.
+    %Die Details sind in Abbildung \ref{tab:teilnehmer}
     
     \begin{table}[h]
         \begin{center}
